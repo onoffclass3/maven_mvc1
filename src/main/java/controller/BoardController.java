@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BoardController {
     @GetMapping("/list")
     public String list(){
-       return "board/list";
+           return "board/list";
     }
 
 }
